@@ -8,5 +8,9 @@ author_profile: true
 {% include base_path %}
 
 {% for post in site.teaching reversed %}
-  {% include archive-single.html %}
+  <div style="margin-bottom: 1.5em;">
+    <strong>{{ post.title }}</strong><br>
+    <em>{{ post.venue }}</em><br>
+    <span>{{ post.excerpt | strip_html | truncatewords: 25 }}</span>
+  </div>
 {% endfor %}
