@@ -1,8 +1,8 @@
 ---
-title: "Nuclear Politics"
+title: "Nuclear Politics (Alexandre Debs)"
 collection: teaching
 type: "Undergraduate course"
-venue: "TF Spring 2025, Alexandre Debs"
+venue: "Teaching Fellow Spring 2025"
 date: 2025-01-01
 location: ""
 excerpt: ""
