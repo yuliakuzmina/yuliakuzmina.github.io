@@ -1,9 +1,9 @@
 ---
-title: "Teaching experience 1"
+title: "Nuclear Politics"
 collection: teaching
 type: "Undergraduate course"
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
-excerpt: "Introductory course on international political economy focusing on trade, institutions, and development."
+venue: "TF Spring 2025, Alexandre Debs"
+date: 2025-01-01
+location: ""
+excerpt: ""
 ---
