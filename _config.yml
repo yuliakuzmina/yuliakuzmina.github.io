@@ -38,7 +38,7 @@ author:
   googlescholar    : "https://scholar.google.com/citations?hl=en&view_op=list_works&gmla=AF9nlQsmzqQLDXikqZ2wXDScoiX60s1QEGlWMd9IIzCvI6m9qfIpYpIzlc08hdSG-6ZVUADOT0rd8lpWrZxeJQ&user=bbCoOWgAAAAJ"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/0000-0002-0064-1102"
+  orcid            : #"https://orcid.org/0000-0002-0064-1102"
   semantic         : # URL
   ssrn             : # URL
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
