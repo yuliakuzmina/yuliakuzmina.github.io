@@ -12,6 +12,6 @@ Under construction!
 ------
 
 
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
+
+![](/images/header1.png)
 
