@@ -1,7 +1,7 @@
 ---
 title: "Authoritarian media and foreign protests: evidence from a decade of Russian news"
 collection: publications
-category: journal
+category: conferences
 permalink: /publication/2024-02-17-paper-title-number-4
 excerpt: ''
 date: 2024-02-17
