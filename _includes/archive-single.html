@@ -43,22 +43,36 @@
       </p>
     {% endif %}
 
-    <!-- Venue + Year (clean, no "Published in") -->
-    {% if post.collection == 'publications' %}
-      {% if post.venue %}
-        <p><em>{{ post.venue }}</em>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
-      {% else %}
-        <p>{{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
-      {% endif %}
-    {% elsif post.collection == 'teaching' %}
-      <p>{{ post.type }}, <em>{{ post.venue }}</em>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
-    {% elsif post.date %}
-      <p class="page__date">
-        <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">
-          {{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}
-        </time>
-      </p>
-    {% endif %}
+   <!-- Venue + Year (clean, no defaults, no "Published in") -->
+{% if post.collection == 'publications' %}
+
+  {% if post.category == "manuscripts" %}
+    <p>Working paper</p>
+
+  {% elsif post.venue and post.date %}
+    <p><em>{{ post.venue }}</em>, {{ post.date | date: "%Y" }}</p>
+
+  {% elsif post.venue %}
+    <p><em>{{ post.venue }}</em></p>
+
+  {% elsif post.date %}
+    <p>{{ post.date | date: "%Y" }}</p>
+
+  {% endif %}
+
+{% elsif post.collection == 'teaching' %}
+
+  <p>{{ post.type }}, <em>{{ post.venue }}</em>, {{ post.date | date: "%Y" }}</p>
+
+{% elsif post.date %}
+
+  <p class="page__date">
+    <time datetime="{{ post.date | date_to_xmlschema }}">
+      {{ post.date | date: "%B %d, %Y" }}
+    </time>
+  </p>
+
+{% endif %}
 
     <!-- Excerpt -->
     {% if post.excerpt and site.read_more != 'enabled' %}
