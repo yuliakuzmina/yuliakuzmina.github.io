@@ -43,6 +43,58 @@
       </p>
     {% endif %}
 
+    <!-- Venue + Year -->
+    {% if post.collection == 'publications' %}
+
+      {% unless post.category == "manuscripts" %}
+
+        {% if post.venue and post.date %}
+          <p><em>{{ post.venue }}</em>, {{ post.date | date: "%Y" }}</p>
+
+        {% elsif post.venue %}
+          <p><em>{{ post.venue }}</em></p>
+
+        {% elsif post.date %}
+          <p>{{ post.date | date: "%Y" }}</p>
+        {% endif %}
+
+      {% endunless %}
+
+    {% elsif post.collection == 'teaching' %}
+
+      <p>{{ post.type }}, <em>{{ post.venue }}</em>, {{ post.date | date: "%Y" }}</p>
+
+    {% elsif post.date %}
+
+      <p class="page__date">
+        <time datetime="{{ post.date | date_to_xmlschema }}">
+          {{ post.date | date: "%B %d, %Y" }}
+        </time>
+      </p>
+
+    {% endif %}
+
+    <!-- Excerpt -->
+    {% if post.excerpt and site.read_more != 'enabled' %}
+      <p class="archive__item-excerpt" itemprop="description">
+        {{ post.excerpt | markdownify }}
+      </p>
+    {% elsif post.excerpt and site.read_more == 'enabled' %}
+      <p class="archive__item-excerpt" itemprop="description">
+        {{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}
+      </p>
+    {% endif %}
+
+  </article>
+</div>    </h2>
+
+    <!-- Authors -->
+    {% if post.authors %}
+      <p class="archive__item-authors">
+        {{ post.authors }}
+      </p>
+    {% endif %}
+
 <!-- Venue + Year (clean, no defaults, no "Published in") -->
 {% if post.collection == 'publications' %}
 
