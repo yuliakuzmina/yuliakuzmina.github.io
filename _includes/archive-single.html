@@ -46,25 +46,34 @@
 <!-- Venue + Year (clean, no defaults, no "Published in") -->
 {% if post.collection == 'publications' %}
 
-  {% if post.category == "manuscripts" %}
-    <!-- no line for manuscripts -->
+  {% unless post.category == "manuscripts" %}
 
-  {% elsif post.venue and post.date %}
-    <p><em>{{ post.venue }}</em>, {{ post.date | date: "%Y" }}</p>
+    {% if post.venue and post.date %}
+      <p><em>{{ post.venue }}</em>, {{ post.date | date: "%Y" }}</p>
 
-  {% elsif post.venue %}
-    <p><em>{{ post.venue }}</em></p>
+    {% elsif post.venue %}
+      <p><em>{{ post.venue }}</em></p>
 
-  {% elsif post.date %}
-    <p>{{ post.date | date: "%Y" }}</p>
+    {% elsif post.date %}
+      <p>{{ post.date | date: "%Y" }}</p>
 
-  {% endif %}
+    {% endif %}
+
+  {% endunless %}
 
 {% elsif post.collection == 'teaching' %}
 
   <p>{{ post.type }}, <em>{{ post.venue }}</em>, {{ post.date | date: "%Y" }}</p>
 
 {% elsif post.date %}
+
+  <p class="page__date">
+    <time datetime="{{ post.date | date_to_xmlschema }}">
+      {{ post.date | date: "%B %d, %Y" }}
+    </time>
+  </p>
+
+{% endif %}
 
   <p class="page__date">
     <time datetime="{{ post.date | date_to_xmlschema }}">
