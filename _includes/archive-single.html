@@ -43,11 +43,11 @@
       </p>
     {% endif %}
 
-   <!-- Venue + Year (clean, no defaults, no "Published in") -->
+<!-- Venue + Year (clean, no defaults, no "Published in") -->
 {% if post.collection == 'publications' %}
 
   {% if post.category == "manuscripts" %}
-    <p>Working paper</p>
+    <!-- no line for manuscripts -->
 
   {% elsif post.venue and post.date %}
     <p><em>{{ post.venue }}</em>, {{ post.date | date: "%Y" }}</p>
@@ -65,6 +65,15 @@
   <p>{{ post.type }}, <em>{{ post.venue }}</em>, {{ post.date | date: "%Y" }}</p>
 
 {% elsif post.date %}
+
+  <p class="page__date">
+    <time datetime="{{ post.date | date_to_xmlschema }}">
+      {{ post.date | date: "%B %d, %Y" }}
+    </time>
+  </p>
+
+{% endif %}
+
 
   <p class="page__date">
     <time datetime="{{ post.date | date_to_xmlschema }}">
