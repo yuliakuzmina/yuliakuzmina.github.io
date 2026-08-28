@@ -1,5 +1,5 @@
 ---
-title: "PLSC 2105 / GLBL 2203 Globalization and Domestic Politics (Didac Queralt)"
+title: "PLSC 2105 / GLBL 2203 Globalization and Domestic Politics (Professor Didac Queralt)"
 collection: teaching
 type: "Undergraduate course"
 venue: "Teaching Fellow Fall 2024, Fall 2025, Fall 2026"
