@@ -11,6 +11,6 @@ author_profile: true
   <div style="margin-bottom: 1.5em;">
     <strong>{{ post.title }}</strong><br>
     <em>{{ post.venue }}</em><br>
-    <span>{{ post.excerpt | strip_html | truncatewords: 25 }}</span>
+    <span>{{ post.excerpt | strip_html | truncatewords: 300 }}</span>
   </div>
 {% endfor %}
