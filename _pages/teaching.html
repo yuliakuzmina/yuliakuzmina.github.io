@@ -7,6 +7,7 @@ author_profile: true
 
 {% include base_path %}
 
+<div class="teaching-text">
 {% for post in site.teaching reversed %}
   <div style="margin-bottom: 1.5em;">
     <strong>{{ post.title }}</strong><br>
@@ -14,3 +15,4 @@ author_profile: true
     <span>{{ post.excerpt | strip_html | truncatewords: 300 }}</span>
   </div>
 {% endfor %}
+</div>
