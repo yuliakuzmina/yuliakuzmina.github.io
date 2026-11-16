@@ -24,11 +24,6 @@ Before Yale, I was a George F. Kennan Fellow at the Wilson Center and a
 quantitative researcher at the Center for Advanced Governance. My work has
 been published in *Post-Soviet Affairs* and *East European Politics*.
 
-[Email](mailto:yulia.kuzmina@yale.edu) ·
-[Google Scholar](https://scholar.google.com/citations?user=bbCoOWgAAAAJ&hl=en) ·
-[Bluesky](https://bsky.app/profile/yuliakuzmina.bsky.social) ·
-[LinkedIn](https://www.linkedin.com/in/yulia-kuzmina-57488312b) ·
-[CV (PDF)](/files/Kuzmina_CV.pdf)
 
 
 
@@ -41,11 +36,11 @@ Coercion · Authoritarianism · Soviet and Russian Politics
 
 ### Working Papers
 
-**Rival Donor: The Logic of Soviet Aid Allocation**<br>
- <!-- delete this line if not applicable -->
+
+<div style="margin-bottom: 1.5em;" markdown="1">
+<p style="margin-bottom: 0.2em;"><strong>Rival Donor: The Logic of Soviet Aid Allocation</strong></p>
 <details markdown="1">
 <summary>Abstract</summary>
-
 
 This paper uses the case of Soviet aid allocation to challenge the assumption 
 that every donor treats aid competition as a bidding game. The Soviet Union was
@@ -63,6 +58,7 @@ senior Soviet officials. I test it with survival analysis and event-study models
 of the extensive and intensive margins of Soviet and American aid and imports.
 
 </details>
+</div>
 
 **Socialist Aid: Soviet Party-Building Assistance in the Global South**
 
