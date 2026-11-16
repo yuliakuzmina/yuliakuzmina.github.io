@@ -35,18 +35,21 @@ Coercion · Authoritarianism · Soviet and Russian Politics
 
 ### Working Papers
 
-**Rival Donor: The Logic of Soviet Aid Allocation**<br>
-<details markdown="1">
-<summary>Abstract</summary>
-
-With fewer resources than the United States, the Soviet Union extended aid
-reactively, rewarding Global South regimes that moved furthest away from
-their former colonizers and the West. Expropriation of foreign assets acted
-as a costly signal that preceded Soviet aid; Moscow sought to reward the
-largest shifts rather than to outbid Washington. I test the argument with
-archival research, official Soviet statistics, periodicals, memoirs, and
-quantitative analysis of aid flows.
-</details>
+**Rival Donor: The Logic of Soviet Aid Allocation**
+This paper uses the case of Soviet aid allocation to challenge the assumption that 
+every donor treats aid competition as a bidding game. The Soviet Union was a second
+mover in the Cold War competition for influence in the Global South: it entered late,
+had fewer resources than the United States, and rarely had the capacity to outbid 
+Washington. Instead of entering a bidding war it was unlikely to win, Moscow pursued 
+a reactive strategy: it rewarded shifts toward greater autonomy from Western powers 
+rather than buying them. Leftist rhetoric alone was cheap talk and rarely secured 
+Soviet support. By contrast, expropriating foreign assets sent a costly signal of a 
+government's autonomy from the West, and such expropriations typically preceded Soviet 
+aid. Washington, in turn, responded to Soviet involvement by trying to outbid Moscow. 
+I develop this argument using original archival research, official Soviet statistics, 
+periodicals, and the memoirs of senior Soviet officials. I test it with survival analysis
+and event-study models of the extensive and intensive margins of Soviet and 
+American aid and imports.
 
 **Socialist Aid: Soviet Party-Building Assistance in the Global South**
 
