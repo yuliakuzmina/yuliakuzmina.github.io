@@ -35,8 +35,8 @@ Coercion · Authoritarianism · Soviet and Russian Politics
 
 ### Working Papers
 
-**Rival Donor: The Logic of Soviet Aid Allocation**
-This paper uses the case of Soviet aid allocation to challenge the assumption that 
+**Rival Donor: The Logic of Soviet Aid Allocation**<br>
+*Abstract:* This paper uses the case of Soviet aid allocation to challenge the assumption that 
 every donor treats aid competition as a bidding game. The Soviet Union was a second
 mover in the Cold War competition for influence in the Global South: it entered late,
 had fewer resources than the United States, and rarely had the capacity to outbid 
