@@ -12,14 +12,14 @@ redirect_from:
 <!-- Paste your current welcome paragraph here, or adapt this draft. -->
 Welcome! I study international political economy, with a focus on international
 hierarchies, economic coercion, foreign aid, and state-building assistance.
-My dissertation uses archival data to explain how the Soviet Union allocated
-aid to countries of the Global South during the Cold War. Related projects
-study Soviet party-building assistance and barter trade as a market for
-political influence.
+In my dissertation, I examine Soviet foreign aid to countries in the Global South 
+during the Cold War. Using archival data, I analyze the logic of Soviet aid 
+allocation and its role in shaping economic and political institutions in recipient
+countries. I also study mechanisms of barter trade.
 
 Before Yale, I was a George F. Kennan Fellow at the Wilson Center and a
-quantitative researcher at the Center for Advanced Governance. My work has
-appeared in *Post-Soviet Affairs* and *East European Politics*.
+quantitative researcher at the Center for Advanced Governance in Moscow, Russia. My work has
+been published in *Post-Soviet Affairs* and *East European Politics*.
 
 
 <!-- Optional, like the example site: dissertation committee
