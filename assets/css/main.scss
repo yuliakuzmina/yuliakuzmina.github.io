@@ -41,3 +41,70 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+==========================================================================
+   Paste everything below at the END of assets/css/main.scss
+   (after the existing @import lines).
+   ========================================================================== */
+
+/* ---- Section headings (## Research, ## Teaching ...) ------------------- */
+.page__content h2 {
+  font-size: 1.15em;
+  font-weight: 400;              /* not bold */
+  font-variant: small-caps;
+  letter-spacing: 0.06em;
+  margin-top: 2.2em;
+  margin-bottom: 0.8em;
+  padding-bottom: 0.25em;
+  border-bottom: 1px solid #ccc; /* thin rule replaces the --- lines */
+}
+
+/* ---- Subsections (### Working Papers, ### Publications ...) ------------ */
+.page__content h3 {
+  font-size: 0.8em;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #777;
+  margin-top: 1.6em;
+  margin-bottom: 0.6em;
+}
+
+/* ---- Paper / course entries ------------------------------------------- */
+.page__content .paper {
+  margin-bottom: 1.2em;          /* gap between entries */
+}
+
+.page__content .paper-title {
+  font-weight: 400;              /* regular weight, not bold */
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+.page__content .paper-title a {
+  text-decoration: none;
+}
+.page__content .paper-title a:hover {
+  text-decoration: underline;
+}
+
+.page__content .paper-meta {
+  font-size: 0.85em;
+  color: #666;
+  line-height: 1.4;
+}
+
+/* ---- Abstract toggle --------------------------------------------------- */
+.page__content .paper details {
+  margin-top: 0.15em;            /* abstract sits right under the title */
+}
+.page__content .paper summary {
+  font-size: 0.8em;
+  color: #666;
+  cursor: pointer;
+}
+.page__content .paper details p {
+  font-size: 0.85em;
+  margin: 0.4em 0 0 0;
+  text-align: justify;
+}
