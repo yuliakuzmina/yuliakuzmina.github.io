@@ -10,22 +10,21 @@ redirect_from:
 **PhD Candidate, Department of Political Science, Yale University**
 
 <!-- Paste your current welcome paragraph here, or adapt this draft. -->
-
-Welcome! I am a PhD candidate in Political Science at Yale University, specializing 
-in international political economy. My research focuses on international hierarchies, 
-economic coercion, foreign aid, and state-building assistance. In my dissertation, I 
-examine Soviet foreign aid to countries in the Global South during the Cold War. Using 
-archival data, I analyze the logic of Soviet aid allocation and its role in shaping 
-economic and political institutions in recipient countries. I also study mechanisms of 
-barter trade.
-
+Welcome! I study international political economy, with a focus on international
+hierarchies, economic coercion, foreign aid, and state-building assistance.
+My dissertation uses archival data to explain how the Soviet Union allocated
+aid to countries of the Global South during the Cold War. Related projects
+study Soviet party-building assistance and barter trade as a market for
+political influence.
 
 Before Yale, I was a George F. Kennan Fellow at the Wilson Center and a
 quantitative researcher at the Center for Advanced Governance. My work has
-been published in *Post-Soviet Affairs* and *East European Politics*.
+appeared in *Post-Soviet Affairs* and *East European Politics*.
 
 
-
+<!-- Optional, like the example site: dissertation committee
+**Dissertation committee:** [Name](link) (chair), [Name](link), [Name](link)
+-->
 
 **Interests:** International Political Economy · Foreign Aid · Economic
 Coercion · Authoritarianism · Soviet and Russian Politics
@@ -36,41 +35,28 @@ Coercion · Authoritarianism · Soviet and Russian Politics
 
 ### Working Papers
 
-
-<div style="margin-bottom: 1.5em;" markdown="1">
-<p style="margin-bottom: 0.2em;"><strong>Rival Donor: The Logic of Soviet Aid Allocation</strong></p>
+**Rival Donor: The Logic of Soviet Aid Allocation**<br>
 <details markdown="1">
 <summary>Abstract</summary>
 
-This paper uses the case of Soviet aid allocation to challenge the assumption 
-that every donor treats aid competition as a bidding game. The Soviet Union was
-a second mover in the Cold War competition for influence in the Global South: it
-entered late, had fewer resources than the United States, and rarely had the 
-capacity to outbid Washington. Instead of entering a bidding war it was unlikely 
-to win, Moscow pursued a reactive strategy: it rewarded shifts toward greater 
-autonomy from Western powers rather than buying them. Leftist rhetoric alone was 
-cheap talk and rarely secured Soviet support. By contrast, expropriating foreign 
-assets sent a costly signal of a government's autonomy from the West, and such 
-expropriations typically preceded Soviet aid. Washington, in turn, responded to 
-Soviet involvement by trying to outbid Moscow. I develop this argument using original
-archival research, official Soviet statistics, periodicals, and the memoirs of 
-senior Soviet officials. I test it with survival analysis and event-study models 
-of the extensive and intensive margins of Soviet and American aid and imports.
-
+With fewer resources than the United States, the Soviet Union extended aid
+reactively, rewarding Global South regimes that moved furthest away from
+their former colonizers and the West. Expropriation of foreign assets acted
+as a costly signal that preceded Soviet aid; Moscow sought to reward the
+largest shifts rather than to outbid Washington. I test the argument with
+archival research, official Soviet statistics, periodicals, memoirs, and
+quantitative analysis of aid flows.
 </details>
-</div>
 
 **Socialist Aid: Soviet Party-Building Assistance in the Global South**
 
 **Market for Political Favors: Soviet Trade with the Global South**
 
-### Works in Progress
 
-**Reindustrializing America: At What Price?**<br>
-with Didac Queralt and Zagreb Mukerjee
 
-**Violent Aid: Perceptions of Security and Legitimacy in Mali–Russia Cooperation**<br>
-with Charlotte Bednarski
+**Reindustrializing America: At What Price?** with Didac Queralt and Zagreb Mukerjee
+
+**Violent Aid: Perceptions of Security and Legitimacy in Mali–Russia Cooperation** with Charlotte Bednarski
 
 ### Publications
 
@@ -91,9 +77,11 @@ with Vitovt Kopytok<br>
 
 **Globalization and Domestic Politics** (PLSC 2105 / GLBL 2203)<br>
 Teaching Fellow for Prof. Didac Queralt · Fall 2024, Fall 2025, Fall 2026<br>
+Led weekly sections with R replication exercises testing theories from lecture.
 
 **Nuclear Politics** (PLSC 130)<br>
 Teaching Fellow for Prof. Alexandre Debs · Spring 2025<br>
+Reviewed response memos and written assignments and prepared students for exams.
 
 ---
 
