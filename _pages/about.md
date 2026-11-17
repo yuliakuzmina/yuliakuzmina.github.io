@@ -80,11 +80,9 @@ with Vitovt Kopytok<br>
 
 **Globalization and Domestic Politics** (PLSC 2105 / GLBL 2203)<br>
 Teaching Fellow for Prof. Didac Queralt · Fall 2024, Fall 2025, Fall 2026<br>
-Led weekly sections with R replication exercises testing theories from lecture.
 
 **Nuclear Politics** (PLSC 130)<br>
 Teaching Fellow for Prof. Alexandre Debs · Spring 2025<br>
-Reviewed response memos and written assignments and prepared students for exams.
 
 ---
 
